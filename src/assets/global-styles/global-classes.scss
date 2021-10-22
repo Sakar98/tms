@@ -1,0 +1,32 @@
+@import '../css-config/css-config';
+
+// global classes
+.box-style {
+  border: 1px solid $silver-line;
+  margin-bottom: 16px;
+  background: $white;
+  padding: 16px;
+}
+
+.box-title {
+  @include font(1.6rem, $black-pearl, 600);
+
+  margin-bottom: 12px;
+}
+
+.row {
+  @include flex(flex);
+}
+
+.select {
+  @include link(1.4rem, $slate-grey);
+
+  background: $white;
+  border: 1px solid $silver-line;
+}
+
+.error-msg {
+  @include font(1.2rem, $warning);
+
+  margin: 8px 0;
+}

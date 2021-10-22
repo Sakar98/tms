@@ -1,0 +1,72 @@
+@import '../../assets/css-config/css-config';
+
+
+.navbar-container{
+    position: sticky;
+    top:0;
+    padding: 15px;
+    @include grid((100px 400px),10px,space-between);
+    @media only screen and (max-width: 500px) {
+        @include grid(repeat(1,auto),1px)
+    }
+    background-color: rebeccapurple;
+
+    .box{
+        height: 20px;
+        margin: 3px;
+        background-color: rgb(233, 152, 152);
+    }
+    
+    .left{
+        @include grid(1fr);
+        .logo-wrap{
+            @include dimensions(70px, 23px);
+            @include background(url('../../assets/images/logo-paytm.svg'), no-repeat, cover);
+        }
+        .logo-tagline{
+            @include font(13px);
+            text-align: left;
+        }
+    }
+    
+    .mid{
+        @include grid(repeat(auto-fit,minmax(60px,80px)),10px)
+        
+    }
+    
+    .right{
+        @include grid(repeat(2,auto),20px,space-around);
+        .button{
+            background-color: aqua;
+        }
+        .user-info{
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            padding: 6px 0px;
+            background-color: red;
+        }
+    }
+
+    .left-navbar{
+        
+    }
+
+    .mid-navbar{
+        .navbar-link-container{
+            .navLink{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .right-navbar{
+
+    }
+
+}
+

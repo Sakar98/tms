@@ -1,0 +1,61 @@
+//------------Theme colors-------------//
+
+//primary
+$theme-color: #00aced;
+$theme-color-shade1: #33bdf1;
+$theme-color-shade2: #66cef0;
+$theme-color-shade3: #99def5;
+$theme-color-shade4: #cceffa;
+$theme-color-shade5: #e5f6fc;
+
+//secondary
+$secondary-theme-color: #002f6c;
+$secondary-theme-color1: #335989;
+$secondary-theme-color2: #6682a7;
+$secondary-theme-color3: #99acc4;
+$secondary-theme-color4: #ccd5e2;
+$secondary-theme-color5: #e5eaf0;
+
+//-------------Communication colors-----------//
+
+//positive
+$success: #26d07c;
+$success-shade1: #51d996;
+$success-shade2: #7de3b0;
+$success-shade3: #a8eccb;
+$success-shade4: #d4f6e5;
+$success-shade5: #e9faf1;
+
+//alert
+$alert: #ffad00;
+$alert-shade1: #ffbd33;
+$alert-shade2: #ffce66;
+$alert-shade3: #ffde99;
+$alert-shade4: #ffefcc;
+$alert-shade5: #fff6e5;
+
+//warnings
+$warning: #ff585d;
+$warning-shade1: #ff797d;
+$warning-shade2: #ff9b9e;
+$warning-shade3: #ffbcbe;
+$warning-shade4: #ffdedf;
+$warning-shade5: #fee;
+
+//------------------Neutral colors-------------------//
+$black-pearl: #1d252d;
+$slate-grey: #506d85;
+$polo-grey: #8ba6c1;
+$silver-line: #dde5ed;
+$fog-grey: #f5f8fa;
+$white: #fff;
+
+//------------------rgba color variables-------------------//
+$transparent-black: rgba(0, 0, 0, .6);
+$transparent-white: rgba(255, 255, 255, .5);
+$transparent-black-focus: rgba(0, 60, 100, .6);
+$box-shadow: rgba(0, 0, 0, .1) 0 4px 10px , rgba(0, 0, 0, .1) 0 4px 10px 0;
+
+// global values
+$header-height: 55px;
+$menu-bar-width: 250px;
